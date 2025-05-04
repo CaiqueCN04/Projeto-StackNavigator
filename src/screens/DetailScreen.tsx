@@ -19,7 +19,7 @@ export default function DetailScreen() {
       </Text>
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
-        <Text style={styles.buttonText}>Voltar para Homes</Text>
+        <Text style={styles.buttonText}>Voltar para Home</Text>
       </TouchableOpacity>
     </View>
   );
