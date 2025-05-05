@@ -13,7 +13,7 @@ export default function ProfileScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Bem-vindo aos perfis</Text>
 
-      {/* Perfil Caique */}
+     
       <View style={styles.profileCard}>
         <Image source={require('../../assets/Caique.jpeg')} style={styles.avatar} />
         <Text style={styles.name}>Caique Chagas</Text>
@@ -22,8 +22,8 @@ export default function ProfileScreen() {
 
       {/* Perfil Rodrigo */}
       <View style={styles.profileCard}>
-        <Image source={require('../../assets/rodrigo.jpg')} style={styles.avatar} />
-        <Text style={styles.name}>Rodrigo Viana</Text>
+        <Image source={require('../../assets/GuilermeDal.jpg')} style={styles.avatar} />
+        <Text style={styles.name}>JGuilerme Dal</Text>
         <Text style={styles.age}>20 anos</Text>
       </View>
 
